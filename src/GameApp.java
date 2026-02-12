@@ -1,5 +1,12 @@
 import java.util.ArrayList;
 
+import Strategy.Attack.CastSpell;
+import Strategy.Attack.ShootArrow;
+import Strategy.Attack.SwordAttack;
+import Strategy.Defense.Dodge;
+import Strategy.Defense.MagicBarrier;
+import Strategy.Defense.ShieldBlock;
+
 public class GameApp {
     public static void main(String[] args) {
         Character knight = new Character("Knight",

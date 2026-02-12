@@ -1,5 +1,8 @@
 import java.util.ArrayList;
 
+import Strategy.Attack.AttackStrategy;
+import Strategy.Defense.DefenseStrategy;
+
 public class Character {
     private String type;
     private AttackStrategy attackStrategy;
