@@ -26,11 +26,11 @@ Implement two types of Strategy:
   <li>SwingSword</li>
 </ol>
 
-Refactor the exisiting code and provide the UML diagram
+Refactor the existing code and provide the UML diagram
 
     public class Character {
     private String type;
-    
+
     public Character(String type) {
         this.type = type;
     }
@@ -48,13 +48,13 @@ Refactor the exisiting code and provide the UML diagram
     public void defend() {
         if (type.equals("Knight")) {
             System.out.println("Using a shield to defend!");
-	System.out.println("Dodgin to avoid attack!");
+    System.out.println("Dodgin to avoid attack!");
             System.out.println("Creating a magic barrier for defense!"");		
 
         } else if (type.equals("Wizard")) {
             System.out.println("Creating a magic barrier for defense!"");
         } else if (type.equals("Archer")) {
             System.out.println("Using a shield to defend!"");
-        }
-    }
-    }
+        	}
+    	}
+	}
