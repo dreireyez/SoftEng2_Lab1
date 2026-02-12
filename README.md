@@ -58,3 +58,6 @@ Refactor the existing code and provide the UML diagram
         	}
     	}
 	}
+
+## Class Diagram
+![Class Diagram](ClassDiagram.png)
